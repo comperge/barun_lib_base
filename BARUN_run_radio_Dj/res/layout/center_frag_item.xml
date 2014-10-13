@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_full_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dip"
+        android:background="#eeeeee" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="20dip"
+        android:layout_marginLeft="3.33333dip"
+        android:background="@drawable/bg_date"
+        android:gravity="center_vertical"
+        android:paddingBottom="2dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="2dip"
+        android:textColor="#777777"
+        android:textSize="13.33333sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.33333dip"
+        android:background="#bebebe" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="66.666666dip"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/rl_item_left"
+            android:layout_width="40dip"
+            android:layout_height="66.66666dip" >
+
+            <TextView
+                android:id="@+id/tvStateImg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_empty"
+                android:gravity="center|bottom"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/rl_item_left" >
+
+            <TextView
+                android:id="@+id/tv_emtpy"
+                android:layout_width="12.66666dip"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="wrap_content"
+                android:layout_height="27.33333dip"
+                android:layout_marginBottom="11.33333dip"
+                android:layout_marginRight="@dimen/px130"
+                android:layout_toRightOf="@id/tv_emtpy"
+                android:gravity="left|bottom"
+                android:textColor="#333333"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvSubmit"
+                android:layout_width="@dimen/px120"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/px10"
+                android:layout_marginTop="@dimen/px50"
+                android:background="@drawable/btn_a"
+                android:gravity="center"
+                android:text="전 송"
+                android:textColor="#ffffff"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvModifyDate"
+                android:layout_width="match_parent"
+                android:layout_height="19.33333dip"
+                android:layout_below="@id/tvState"
+                android:layout_marginRight="@dimen/px130"
+                android:layout_toRightOf="@id/tv_emtpy"
+                android:ellipsize="end"
+                android:gravity="center_vertical|left"
+                android:maxWidth="56dip"
+                android:singleLine="true"
+                android:textColor="#6e6e6e"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

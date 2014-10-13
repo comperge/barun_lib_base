@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_empty_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dip"
+        android:text=". . . ."
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvSschadule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#bebebe"
+        android:dividerHeight="0.3333dip"
+        android:listSelector="@android:color/transparent" />
+
+</RelativeLayout>
