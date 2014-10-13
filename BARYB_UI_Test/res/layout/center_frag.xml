@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mother_ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#012058"
+    android:gravity="center_horizontal" >
+
+    <ImageView
+        android:id="@+id/blurView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:background="@drawable/a"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:layout_marginTop="20dip"
+        android:layout_toRightOf="@id/tv1"
+        android:background="@drawable/b"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv1"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:background="@drawable/c"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv4"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv2"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:layout_marginTop="20dip"
+        android:layout_toRightOf="@id/tv3"
+        android:background="@drawable/d"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv5"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv3"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:background="@drawable/e"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv6"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv4"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:layout_marginTop="20dip"
+        android:layout_toRightOf="@id/tv5"
+        android:background="@drawable/f"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv7"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv5"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:background="@drawable/g"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv8"
+        android:layout_width="100dip"
+        android:layout_height="100dip"
+        android:layout_below="@id/tv6"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:layout_marginTop="20dip"
+        android:layout_toRightOf="@id/tv7"
+        android:background="@drawable/h"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

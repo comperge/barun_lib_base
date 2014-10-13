@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlInner1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thumb_transparent"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/tvIconBig"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:layout_gravity="center"
+        android:layout_margin="3dip"
+        android:textColor="#6e6e6e"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
